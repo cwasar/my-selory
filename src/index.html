@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Расчет зпшки, че куда</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="greed" id="greed">
+			<h3>Добро пожаловать в программу отслеживания доходов!</h3>
+			<button class="greed-btn">Приступить</button>
+		</div>
+
+		<div class="tabs" id="tabs">
+			<ul class="tabs-list">
+				<li data-name="create">Внести данные</li>
+				<li data-name="statistic" class="active">Статистика</li>
+			</ul>
+		</div>
+
+		<form id="create" class="form hide">
+			<h4>Введите данные</h4>
+			<label for="money">Введите сумму</label>
+			<input type="text" name="money" id="money">
+			<label for="income">Выберете тип</label>
+			<select name="type" id="income">
+				<option value="on-card">Официальная</option>
+				<option value="black-money">В конверте</option>
+				<option value="prize">Премия</option>
+				<option value="others">Другие</option>
+			</select>
+			<button type="submit">Добавить</button>
+		</form>
+
+
+		<div id="statistic" class="show-selory">
+			<div class="date">12.12.21</div>
+			<div class="all-sum">80000</div>
+
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -75,11 +75,25 @@ form:only-child {
 	display: flex;
 	flex-direction: column;
 	width: 600px;
-	margin: 0 auto;
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px solid rgb(173, 173, 173);
+	border-radius: 20px;
+	background: #f5f5ff;
 }
 
 .hide {
 	display: none;
 }
 
+.item {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px solid rgb(173, 173, 173);
+	border-radius: 20px;
+	background: #f5f5ff;
+}
 

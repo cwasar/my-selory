@@ -97,3 +97,11 @@ form:only-child {
 	background: #f5f5ff;
 }
 
+.filter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+margin: 20px;
+
+}
+
